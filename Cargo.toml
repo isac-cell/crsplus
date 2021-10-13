@@ -1,0 +1,25 @@
+[package]
+name = "crsplus"
+version = "0.1.0"
+edition = "2018"
+authors = ["Isac Cell <isac-cell@protonmail.com>"]
+description = "A simple Rust library"
+repository = "https://github.com/isac-cell/crsplus"
+readme = "README.md"
+license = "MIT"
+
+[lib]
+name = "crsplus"
+crate-type = ["cdylib"]
+
+[package.metadata.maturin]
+classifier = [
+  "Programming Language :: Rust",
+  "Operating System :: POSIX :: Linux",
+  "License :: OSI Approved :: MIT License",
+]
+
+[dependencies.pyo3]
+version = "0.14.5"
+features = ["extension-module"]
+
