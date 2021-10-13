@@ -1,6 +1,6 @@
 [package]
 name = "crsplus"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2018"
 authors = ["Isac Cell <isac-cell@protonmail.com>"]
 description = "A simple Rust library"
@@ -17,6 +17,7 @@ classifier = [
   "Programming Language :: Rust",
   "Operating System :: POSIX :: Linux",
   "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
 ]
 
 [dependencies.pyo3]
